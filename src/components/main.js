@@ -53,8 +53,9 @@ async function coordinatesOfCity(cityName) {
 
 // coordinatesOfCity('York').then(results => console.log(results));
 
+// INSERT YOUR GOOGLE API KEY HERE
 const googleMapsClient = require('@google/maps').createClient({
-  key: 'AIzaSyAswlJyg33p9zcYo9ICHLxaeEdQtcNWShs',
+  key: '',
   Promise
 })
 
